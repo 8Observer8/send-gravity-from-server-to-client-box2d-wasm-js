@@ -5,7 +5,7 @@ let host;
 if (window.location.host === "localhost:3000") {
     host = "ws://localhost:3000";
 } else {
-    host = "wss://send-gravity-from-server-to-client-box2d-wasm-js.onrender.com";
+    host = "wss://send-gravity.onrender.com";
 }
 
 const ws = new WebSocket(host);
