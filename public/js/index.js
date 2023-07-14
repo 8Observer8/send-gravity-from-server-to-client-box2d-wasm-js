@@ -12,7 +12,7 @@ let host;
 if (window.location.host === "localhost:3000") {
     host = "ws://localhost:3000";
 } else {
-    host = "wss://send-gravity.onrender.com";
+    host = "wss://merciful-regal-soursop.glitch.me";
 }
 
 const ws = new WebSocket(host);
