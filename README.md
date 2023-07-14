@@ -1,12 +1,14 @@
-Install this package globally with the command:
+Instructions for building and running the project in debug and release:
+
+- Install this package globally with the command:
 
 > npm i -g nodemon rollup uglify-js
 
-Run http-server in the project directory:
+- Run http-server in the project directory:
 
 > nodemon src/server/app.js
 
-Start development mode with the following command:
+- Start development mode with the following command:
 
 > npm run dev
 
@@ -14,7 +16,7 @@ Note. Rollup will automatically keep track of saving changes to files and build 
 
 - Go to the browser and type: localhost:3000
 
-Create a compressed file ready for publishing. Stop development mode, for example, with this command Ctrl + C in CMD, if it was launched before and enter the command:
+- Create a compressed file ready for publishing. Stop development mode, for example, with this command Ctrl + C in CMD, if it was launched before and enter the command:
 
 > npm run release
 
