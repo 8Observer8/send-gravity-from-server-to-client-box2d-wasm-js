@@ -12,7 +12,9 @@ export let box2d = null;
 
 export function initBox2D() {
     return new Promise(resolve => {
-        Box2DLib().then((re) => {
+        Box2DLib({
+            locateFile: (url, scriptDirectory) => "file:///opt/render/project/src/node_modules/box2d-wasm/dist/umd/Box2D.simd.wasm"
+        }).then((re) => {
             box2d = re;
             resolve();
         });
